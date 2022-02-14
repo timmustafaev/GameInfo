@@ -4,4 +4,5 @@ This Flutter project was developed as a part of my Dart/Flutter university cours
 
 The application has multiple widgets. Pantalla_inicial is the initial page where you log in. If you don't have an account then by tapping on the "register new account' a new user may be created in PantallaRegistro. PantallaLista is the widget that contains the list of videogames saved in Firebase and by tapping on any one of them transfers you to video_game_screen of a particular videogame. The app also permits to save the favourites which can be consulted in PantallaFavs. If you have a moderator's account, you can add new game to the Firebase in PantallaAnadirJuego.
 
+The main implementation is contained in the lib directory. However, to start the application you have to download the necessary packages which is often done automatically. To ensure the correct functioning you can start a new project and simply upload the lib directory and set up the Firebase connection.
 
